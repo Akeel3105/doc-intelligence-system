@@ -6,7 +6,7 @@ import io
 
 # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-def preprocess_imag(image):
+def preprocess_image(image):
     image = image.convert("L")  # Grayscale
     image = image.filter(ImageFilter.MedianFilter())
     enhancer = ImageEnhance.Contrast(image)

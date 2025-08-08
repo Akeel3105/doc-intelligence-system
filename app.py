@@ -15,7 +15,7 @@ st.write("Upload a scanned image or PDF to extract structured information.")
 
 uploaded_file = st.file_uploader("Upload Document (PDF or Image)", type=["png", "jpg", "jpeg", "pdf"])
 
-if uploaded_fil:
+if uploaded_file:
     file_bytes = uploaded_file.read()
     text = ""
 

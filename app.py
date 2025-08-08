@@ -10,7 +10,7 @@ from logger import save_to_csv
 
 st.set_page_config(page_title="Document Intelligence System", layout="wide")
 
-st.title("🧾 Real-Time Document Intelligence (OCR + NLP)")
+st.title("🧾 Real-Time Document Intelligence (OCR + NLP)_Updated")
 st.write("Upload a scanned image or PDF to extract structured information.")
 
 uploaded_file = st.file_uploader("Upload Document (PDF or Image)", type=["png", "jpg", "jpeg", "pdf"])
